@@ -8,9 +8,9 @@
 
 let lovesCode = true
 
-if (lovesCode === true){
-  console.log("I love to code!")
-}else {console.log("Coding has it's challenges")}
+// if (lovesCode === true){
+//   console.log("I love to code!")
+// }else {console.log("Coding has it's challenges")}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -24,7 +24,11 @@ var brittanisBirthYear = 1986
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
 
-//CODE HERE
+// if (amysAge > brittanisAge){
+//     console.log("Amy is older")
+// }else if(amysAge < brittanisAge){
+//     console.log("Brittani is older")
+// }else {console.log("They are the same age!")}
 
 
 ////////// PROBLEM 3 //////////
@@ -33,7 +37,9 @@ var brittanisBirthYear = 1986
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-//CODE HERE
+// if (amysBirthYear === brittanisBirthYear){
+//   console.log ("Amy & Brittani were born in the same year")}
+//   else {console.log ("Amy & Brittani were not born in the same year")}
 
 
 
@@ -45,22 +51,20 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-//Code Here
-
+// var firstItem = arr[0]
 
 ////////// PROBLEM 5 //////////
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
 
-//Code Here
-
+// var lastItemRemoved = arr.pop()
 
 
 ////////// PROBLEM 6 //////////
 
 
-
+//:)
 
 
 ////////// PROBLEM 7 //////////
@@ -73,7 +77,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-//Code Here
+// for (i = 0; i < family.length; i++){
+//   console.log (family[i])
+// }
 
 
 
@@ -88,7 +94,11 @@ let evensArr = []
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
 
-//Code Here
+// for (let i = 0; i < nums.length; i++) {
+//   if ((nums[i] % 2) === 0) {
+//     evensArr.push(nums[i])
+//   }
+// }
 
 
 
@@ -102,7 +112,18 @@ var score = 74
   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console-log an 'A', between 80 and 89, console-log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console-log an 'F'.
 */
 
-//Code Here
+if (score >= 90) {
+  console.log("A")
+} else if (score >= 80 && score <= 89) {
+  console.log("B")
+} else if (score >= 70 && score <= 79) {
+  console.log("C")
+} else if (score >= 60 && score <= 69) {
+  console.log("D")
+} else {
+  console.log("F")
+}
+
 
 
 ////////// Intermediate Problems //////////
